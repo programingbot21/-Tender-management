@@ -1,4 +1,4 @@
-// src/app/dashboard/layout.tsx
+'use client';
 import Sidebar from "@/components/Sidebar";
 
 export default function DashboardLayout({ children }: { children: React.ReactNode }) {
@@ -11,3 +11,5 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
     </div>
   );
 }
+
+

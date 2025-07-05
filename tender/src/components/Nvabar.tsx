@@ -1,4 +1,4 @@
-// src/components/Navbar.tsx
+
 
 'use client';
 
@@ -7,7 +7,9 @@ import Link from 'next/link';
 const Nvabar = () => {
   return (
     <nav className="bg-blue-600 text-white px-6 py-4 shadow">
+     
       <div className="flex justify-between items-center max-w-6xl mx-auto">
+      
         <Link href="/" className="text-xl font-bold">
           TenderApp
         </Link>
@@ -23,3 +25,6 @@ const Nvabar = () => {
 };
 
 export default Nvabar;
+
+
+
