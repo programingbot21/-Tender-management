@@ -5,6 +5,7 @@ import cors from 'cors';
 import router from './routes/auth.js';
 import router1 from './routes/comroutes.js';
 import router2 from './routes/tenders.js';
+import router3 from './routes/approu.js';
 
 
 dotenv.config();
@@ -18,7 +19,8 @@ app.use(cors())
 
 app.use('/api/auth', router);
 app.use('/api/company', router1);
-app.use('/api/tenders',router2)
+app.use('/api/tenders',router2);
+app.use('/api/applications', router3)
 
 
 const PORT = process.env.PORT || 8005;

@@ -16,7 +16,8 @@ const CompanySchema = new mongoose.Schema({
         required: true,
     },
     logoUrl: {
-        type: String
+        type: String,
+        required: true
     },}, {
         timestamps: true,
     }

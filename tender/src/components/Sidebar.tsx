@@ -45,6 +45,20 @@ const Sidebar = () => {
           >
             <ClipboardList size={20} /> <span>Tender List</span>
           </Link>
+
+           <Link
+            href="/dashboard/AppForm"
+            className="flex items-center gap-3 hover:bg-blue-700 p-2 rounded"
+          >
+            <ClipboardList size={20} /> <span>Appliction from</span>
+          </Link>
+
+           <Link
+            href="/dashboard/AppList"
+            className="flex items-center gap-3 hover:bg-blue-700 p-2 rounded"
+          >
+            <ClipboardList size={20} /> <span>Application List</span>
+          </Link>
         </nav>
       </aside>
     </>
