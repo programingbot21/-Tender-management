@@ -1,7 +1,7 @@
 'use client'
 import { ApplicationList } from '@/components/AppList';
 import React from 'react';
-// import { TenderForm } from '@/components/TenderForm';
+
 
 
 const AppList = () => {

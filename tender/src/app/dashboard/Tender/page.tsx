@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-// import { TenderForm } from '@/components/TenderForm';
+
 import TenForm from '@/components/TenForm';
 
 const TenderPage = () => {

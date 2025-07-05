@@ -2,7 +2,6 @@
 
 import { ApplicationForm } from '@/components/AppForm';
 import React from 'react';
-// import { TenderForm } from '@/components/TenderForm';
 
 
 const AppForm = () => {
